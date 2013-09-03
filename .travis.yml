@@ -1,3 +1,8 @@
 rvm:
-    - "2.0.0"
-script: "bundle exec rake cucumber"
+- 2.0.0
+script: bundle exec rake cucumber
+deploy:
+  provider: heroku
+  app: aaronbaglien
+  api_key:
+    secure: ZvoUgaJ/Z+765dBnJmVqV559MZDPgjQXjmit2iUxDTEJnPprghnlCrokh0WU/SevboOFZ+lMRS/X46cK3KIaNMUTXnhvw/wJKd0ri7MJCVft96r7qkk3vuElVideaWNLbUPQ+HadmMqfy+I0aJE6d+pzF3kDMYVyG6fsyZpBE+M=
