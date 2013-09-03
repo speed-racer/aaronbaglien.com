@@ -49,8 +49,8 @@
           <a class="brand" href="#">AaronBaglien</a>
           <div class="container-fluid nav-collapse">
             <ul class="nav">
-              <li><%= link_to "Now living in..", "http://www.portlandmaine.com" %></li>
-              <li><%= link_to "Now working at..", "https://www.patdeegan.com/"  %></li>
+              <li><%= link_to "Now living in..", "http://www.portlandmaine.com", id: "live" %></li>
+              <li><%= link_to "Now working at..", "https://www.patdeegan.com/", id: "work"  %></li>
               <li><%= link_to "Favorite place to eat..", "http://novareresbiercafe.com/", id: "eat"  %></li>
             </ul>
           </div><!--/.nav-collapse -->
@@ -64,9 +64,9 @@
           <div class="well sidebar-nav">
             <ul class="nav nav-list">
               <li class="nav-header">Sidebar</li>
-              <li><%= link_to "Instagram Link", "http://instagram.com/speedracerb"  %></li>
-              <li><%= link_to "Favorite Car Ad", "http://www.atticdoor.net/traveler/images/94vader_.jpg"  %></li>
-              <li><%= link_to "Great Work Space", "http://www.thinktankportland.com/"  %></li>
+              <li><%= link_to "Instagram Link", "http://instagram.com/speedracerb", id: "instagram"  %></li>
+              <li><%= link_to "Favorite Car Ad", "http://www.atticdoor.net/traveler/images/94vader_.jpg", id: "my_ride"  %></li>
+              <li><%= link_to "Great Work Space", "http://www.thinktankportland.com/", id: "office"  %></li>
             </ul>
           </div><!--/.well -->
         </div><!--/span-->
