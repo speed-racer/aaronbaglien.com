@@ -63,7 +63,7 @@
         <div class="span3">
           <div class="well sidebar-nav">
             <ul class="nav nav-list">
-              <li class="nav-header">Sidebar</li>
+              <li class="nav-header">Some Links</li>
               <li><%= link_to "Instagram Link", "http://instagram.com/speedracerb", id: "instagram"  %></li>
               <li><%= link_to "Favorite Car Ad", "http://www.atticdoor.net/traveler/images/94vader_.jpg", id: "my_ride"  %></li>
               <li><%= link_to "Great Work Space", "http://www.thinktankportland.com/", id: "office"  %></li>
@@ -74,6 +74,21 @@
           <%= bootstrap_flash %>
           <%= yield %>
         </div>
+      </div><!--/row-->
+    </div><!--/container -->
+
+    <div class="container-fluid">
+      <div class="row-fluid">
+        <div class="span3">
+          <div class="well sidebar-nav">
+            <ul class="nav nav-list">
+              <li class="nav-header">More Stuff</li>
+              <li><%= link_to "Link 1", "Link 1", id: "link_1" %></li>
+              <li><%= link_to "Link 2", "Link 2", id: "link_2" %></li>
+              <li><%= link_to "Link 3", "Link 3", id: "link_3" %></li>
+            </ul>
+          </div><!--/.well -->
+        </div><!--/span-->
       </div><!--/row-->
 
       <footer>

@@ -1,3 +1,21 @@
 // Place all the styles related to the welcome controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+body {
+  font-family: Helvetica;
+  font-size: 1em;
+  font-weight: bold; }
+
+#contents {
+  width: 10px; }
+  #contents #sidebar {
+    float: right;
+    width: 10px; }
+  #contents #main {
+    width: 600px;
+    background: #eeeeee; }
+    #contents #main h2 {
+      color: #214463; }
+
+#footer {
+  height: 15px; }
