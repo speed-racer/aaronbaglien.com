@@ -52,6 +52,7 @@
               <li><%= link_to "Ahh my Portland.. la la la la", "http://www.portlandmaine.com", id: "live" %></li>
               <li><%= link_to "How I pay the bills", "https://www.patdeegan.com/", id: "work"  %></li>
               <li><%= link_to "Great Food!", "http://novareresbiercafe.com/", id: "eat"  %></li>
+              <li><%= link_to "About", "http://www.aaronbaglien.com/about/", id: "about" %></li>
             </ul>
           </div><!--/.nav-collapse -->
         </div>
@@ -70,20 +71,21 @@
             </ul>
           </div><!--/.well -->
         </div><!--/span-->
-        <div class="span9">
+        <div class="span6 p">
           <%= bootstrap_flash %>
           <%= yield %>
+        </div>
+        <div class="container-fluid advertisement span3">
+          <a href="http://referrals.trhou.se/aaronbaglien" target="_blank"><img src="http://teamtreehouse.com/referral-badge/aaronbaglien"/></a>
         </div>
       </div><!--/row-->
     </div><!--/container -->
 
-    <div class="container-fluid">
-      <a href="http://referrals.trhou.se/aaronbaglien" target="_blank"><img src="http://teamtreehouse.com/referral-badge/aaronbaglien"/></a>
-    </div>
-
-      <footer>
-        <p>&copy; Current Year</p>
-      </footer>
+      <div class="footer">
+        <footer>
+          <p>Thanks for stopping by!</p>
+        </footer>
+       </div>
 
     </div> <!-- /container -->
 
