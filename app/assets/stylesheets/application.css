@@ -30,3 +30,8 @@
    clear: both;
    float: none;
 }
+
+.bxslider {
+  width: auto;
+  height: 250px;
+}
