@@ -9,17 +9,13 @@
  * compiled file, but it's generally better to create a new file per style scope.
  *
  *= require_self
+ *= require jquery.bxslider
  *= require_tree .
  */
 .body {
   font-family: Helvetica;
   font-size: 1em;
   font-weight: bold; }
-
-
-.advertisement {
-  float: right;
-}
 
 .p {
   text: italics
