@@ -13,12 +13,13 @@
  *= require_tree .
  */
 .body {
-  font-family: Helvetica;
+  font-family: Helvetica, sans-serif;
   font-size: 1em;
-  font-weight: bold; }
+  font-weight: bold;
+}
 
 .p {
-  text: italics
+  font-family: Helvetica, sans-serif;
 }
 
  .footer {
