@@ -12,22 +12,35 @@
  *= require jquery.bxslider
  *= require_tree .
  */
-.body {
+body {
+  height: 100%;
+  margin: auto;
   font-family: Helvetica, sans-serif;
   font-size: 1em;
+}
+
+h2 {
+  height: 3em;
   font-weight: bold;
+
 }
 
 .p {
+  position: relative;
   font-family: Helvetica, sans-serif;
 }
 
- .footer {
-   position:fixed;
-   bottom:0;
-   width:100%;
-   height:30px;   /* Height of the footer */
+ footer {
+   position: absolute;
+   bottom: 0;
+   width: 100%;
+   height: 30px;   /* Height of the footer */
    background: #e5e5e5;
    clear: both;
    float: none;
+}
+
+footer p {
+  margin: auto;
+  text-align: center;
 }
