@@ -13,7 +13,7 @@
  *= require_tree .
  */
 body {
-  height: 100%;
+  height: auto;
   margin: auto;
   font-family: Helvetica, sans-serif;
   font-size: 1em;
@@ -22,13 +22,18 @@ body {
 h2 {
   height: 3.2em;
   font-weight: bold;
+  font-family: 'Open+Sans', sans-serif;
 }
 
 p {
   font-size: 1.1em;
   margin: auto;
   position: relative;
-  font-family: Helvetica, sans-serif;
+  font-family: 'Open+Sans', sans-serif;
+}
+
+.header {
+  width: 100%;
 }
 
 .headshot {
